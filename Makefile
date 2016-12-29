@@ -1,5 +1,4 @@
-CC = m68k-amigaos-gcc -noixemul -s
-CFLAGS = -Os -Wall -fomit-frame-pointer -msmall-code -m68000
+CFLAGS = -Os -Wall -fomit-frame-pointer
 LDFLAGS = -lm
 
 umc: umc.c
